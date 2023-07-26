@@ -21,6 +21,7 @@ resource "aws_security_group" "ssh_traffic" {
     git_org              = "gbrandyb-bridgecrewio"
     git_repo             = "terragoat"
     yor_trace            = "cb592020-b3a0-449a-bd24-f53d2e14cf0d"
+    yor_name             = "ssh_traffic"
   }
 }
 
@@ -38,6 +39,7 @@ resource "aws_instance" "web_server_instance" {
     git_org              = "gbrandyb-bridgecrewio"
     git_repo             = "terragoat"
     yor_trace            = "921b5bc4-9000-4d98-bb6f-0fa686968c07"
+    yor_name             = "web_server_instance"
   }
 }
 
